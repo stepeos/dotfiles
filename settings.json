@@ -1,0 +1,13 @@
+{
+    "editor.rulers": [
+        {
+            "column": 79,
+            "color": "#1e55cc"
+        }
+    ],
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.lightbulb.enabled": "off",
+    "editor.minimap.enabled": false,
+    "editor.inlineSuggest.enabled": true,
+    "workbench.colorTheme": "Ayu Dark Bordered",
+}
