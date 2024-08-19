@@ -1,0 +1,61 @@
+{
+    "editor.rulers": [
+        {
+            "column": 80,
+            "color": "#1e55cc"
+        },
+        {
+            "column": 100,
+            "color": "#8f1ecc"
+        }
+    ],
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.lightbulb.enabled": "off",
+    "editor.minimap.enabled": false,
+    "editor.inlineSuggest.enabled": true,
+    "window.commandCenter": false,
+    "window.menuBarVisibility": "compact",
+    "workbench.layoutControl.enabled": false,
+    "C_Cpp.intelliSenseEngine": "disabled",
+    "editor.inlayHints.enabled": "off",
+    "cmake.showOptionsMovedNotification": false,
+    "gitlens.hovers.enabled": false,
+    "gitlens.hovers.avatars": false,
+    "workbench.sideBar.location": "right",
+    "terminal.integrated.defaultProfile.windows": "Windows PowerShell",
+    "output.smartScroll.enabled": false,
+    "workbench.preferredDarkColorTheme": "Ayu Dark Bordered",
+    "workbench.preferredLightColorTheme": "Ayu Light Bordered",
+    "workbench.colorTheme": "Ayu Dark Bordered",
+    "files.eol": "\r\n",
+    "security.workspace.trust.untrustedFiles": "open",
+    "hexeditor.columnWidth": 16,
+    "hexeditor.showDecodedText": true,
+    "hexeditor.defaultEndianness": "little",
+    "hexeditor.inspectorType": "aside",
+    "gitlens.views.commitDetails.files.layout": "tree",
+    "git.confirmSync": false,
+    "explorer.confirmDelete": false,
+    "editor.cursorSurroundingLines": 15,
+    "cmake.configureOnOpen": false,
+    "extensions.ignoreRecommendations": true,
+    "editor.fontFamily": "Source Code Pro",
+    "files.exclude": {
+        "**/*.orig": true
+    },
+    "cmake.pinnedCommands": [
+        "workbench.action.tasks.configureTaskRunner",
+        "workbench.action.tasks.runTask"
+    ],
+    "cmake.showConfigureWithDebuggerNotification": false,
+    "editor.cursorStyle": "block",
+    "editor.cursorBlinking": "solid",
+    "diffEditor.ignoreTrimWhitespace": true,
+    "gitlens.graph.minimap.enabled": false,
+    "keyboard.touchbar.enabled": false,
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "search.useIgnoreFiles": false,
+    "git.openRepositoryInParentFolders": "never",
+}
