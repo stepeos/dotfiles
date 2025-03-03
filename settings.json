@@ -1,13 +1,171 @@
 {
-    "editor.rulers": [
-        {
-            "column": 79,
-            "color": "#1e55cc"
-        }
-    ],
-    "editor.acceptSuggestionOnEnter": "off",
-    "editor.lightbulb.enabled": "off",
-    "editor.minimap.enabled": false,
-    "editor.inlineSuggest.enabled": true,
-    "workbench.colorTheme": "Ayu Dark Bordered",
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook",
+    "*.csv": "default"
+  },
+  "editor.acceptSuggestionOnEnter": "off",
+  "editor.lightbulb.enabled": "off",
+  "debug.console.historySuggestions": false,
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "terminal.integrated.gpuAcceleration": "off",
+  "vscode_vibrancy.theme": "Default Dark",
+  "vscode_vibrancy.type": "acrylic",
+  "editor.fontSize": 15,
+  "texlab.server.autoDownload": true,
+  "vscode_vibrancy.opacity": -1,
+  "glassit.alpha": 255,
+  "git.confirmSync": false,
+  "explorer.confirmDelete": false,
+  "editor.quickSuggestions": {
+    "other": "on",
+    "comments": "off",
+    "strings": "on"
+  },
+  "gitlens.plusFeatures.enabled": false,
+  "gitlens.hovers.enabled": false,
+  "gitlens.advanced.messages": {
+    "suppressLineUncommittedWarning": true
+  },
+  "ltex.sentenceCacheSize": 6000,
+  "ltex.java.maximumHeapSize": 2048,
+  "ltex.java.initialHeapSize": 512,
+  "explorer.confirmDragAndDrop": false,
+  "notebook.lineNumbers": "on",
+  "editor.fontFamily": "SauceCodePro Nerd Font Mono",
+  "editor.rulers": [
+    {
+      "column": 79,
+      "color": "#1e55cc"
+    }
+  ],
+  "diffEditor.ignoreTrimWhitespace": false,
+  "python.analysis.autoImportCompletions": false,
+  "gitlens.showWhatsNewAfterUpgrades": false,
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "jupyter.askForKernelRestart": false,
+  "jupyter.pylanceHandlesNotebooks": false,
+  "editor.minimap.enabled": false,
+  "window.commandCenter": false,
+  "testing.automaticallyOpenPeekView": "never",
+  "[python]": {
+    "editor.formatOnType": true,
+    "editor.defaultFormatter": "ms-python.autopep8"
+  },
+  "gitlens.gitCommands.skipConfirmations": ["fetch:command", "switch:command"],
+  "editor.inlineSuggest.enabled": true,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": true,
+    "markdown": false,
+    "scminput": false,
+    "latex": false
+  },
+  "[cpp]": {
+    "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd"
+  },
+  "clang-format.executable": "clang-14",
+  "C_Cpp.formatting": "clangFormat",
+  "window.menuBarVisibility": "toggle",
+  "window.titleBarStyle": "custom",
+  "hediet.vscode-drawio.resizeImages": null,
+  "hediet.vscode-drawio.theme": "dark",
+  "hediet.vscode-drawio.codeLinkActivated": false,
+  "workbench.sideBar.location": "right",
+  "testMate.cpp.debug.breakOnFailure": false,
+  "testMate.cpp.debug.noThrow": true,
+  "testMate.cpp.test.executables": "devel/**/*{test,Test,TEST}*",
+  "ltex.language": "de-DE",
+  "jupyter.notebookFileRoot": "${workspaceFolder}",
+  "latex-workshop.latex.recipes": [
+    {
+      "name": "latexmk",
+      "tools": ["latexmk"]
+    }
+  ],
+  "latex-workshop.latex.tools": [
+    {
+      "name": "latexmk",
+      "command": "/usr/local/texlive/2024/bin/x86_64-linux/latexmk",
+      "args": [
+        "-synctex=2",
+        "-interaction=nonstopmode",
+        "-file-line-error",
+        "-pdf",
+        "-outdir=%OUTDIR%",
+        "%DOC%"
+      ],
+      "env": {}
+    },
+    {
+      "name": "pdflatex",
+      "command": "pdflatex",
+      "args": [
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-file-line-error",
+        "%DOC%"
+      ],
+      "env": {}
+    },
+    {
+      "name": "bibtex",
+      "command": "bibtex",
+      "args": ["%DOCFILE%"],
+      "env": {}
+    }
+  ],
+  "editor.inlayHints.fontFamily": "SauceCodePro Nerd Font Mono",
+  "C_Cpp.intelliSenseEngine": "disabled",
+  "cmake.showOptionsMovedNotification": false,
+  "latex-workshop.linting.chktex.exec.args": [
+    "-n22",
+    "-n30",
+    "-e16",
+    "-q",
+    "-n"
+  ],
+  "latex-workshop.linting.chktex.exec.path": "",
+  "notebook.stickyScroll.enabled": true,
+  "workbench.preferredLightColorTheme": "Ayu Light Bordered",
+  "workbench.preferredDarkColorTheme": "Ayu Dark Bordered",
+  "extensions.ignoreRecommendations": true,
+  "output.smartScroll.enabled": false,
+  "cmake.pinnedCommands": [
+    "workbench.action.tasks.configureTaskRunner",
+    "workbench.action.tasks.runTask"
+  ],
+  "cmake.revealLog": "error",
+  "terminal.integrated.inheritEnv": false,
+  "editor.cursorStyle": "block",
+  "editor.cursorBlinking": "solid",
+  "editor.cursorSurroundingLines": 15,
+  "editor.inlayHints.enabled": "off",
+  "telemetry.telemetryLevel": "off",
+  "workbench.colorTheme": "Ayu Dark Bordered",
+  "continue.showInlineTip": false,
+  "lldb.consoleMode": "evaluate",
+  "lldb.launch.initCommands": [
+    "settings set target.x86-disassembly-flavor intel"
+  ],
+  "gitlens.views.scm.grouped.views": {
+    "commits": false,
+    "branches": false,
+    "remotes": false,
+    "stashes": false,
+    "tags": false,
+    "worktrees": false,
+    "contributors": false,
+    "repositories": false,
+    "searchAndCompare": false,
+    "launchpad": false
+  },
+  "lldb.suppressUpdateNotifications": true,
+  "extensions.autoCheckUpdates": false,
+  "debug.inlineValues": "off"
 }
